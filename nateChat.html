@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Nate Chat</title>
+		<script src="./jquery-3.1.1.slim.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
+		<script src="./nateChat.js"></script>
+	</head>
+	<style>
+		h1{
+			color: darkred;
+			font-family: 'Comic Sans MS';
+		}
+		body{
+			color: darkred;
+			background-color: lightgray;
+			font-family: 'Comic Sans MS';
+			display: table-cell;
+			vertical-align: middle;
+			text-align: center;
+		}
+		p{
+			color: darkblue;
+			font-family: 'Comic Sans MS';
+		}
+		input{
+			background-color: white;
+			color: darkred;
+			font-family: 'Comic Sans MS';
+		}
+		textarea{
+			color: darkred;
+			font-family: 'Comic Sans MS';
+		}
+		button{
+			color: darkred;
+			font-family: 'Comic Sans MS';
+		}
+	</style>
+	<body>
+		<h1>Nate Chat</h1>
+		<p><b>Send Message</b></p>
+		<p>
+			From: <input border="0" type="text" id="from" width="400"/>
+			To: <input type="text" id="to" width="400"/>
+		</p>
+		<p>
+			Message: <input size="38" type="text" id="Message"/>
+			<button onclick="send()">Send</button>
+		</p>
+		<p><b>Check Message</b></p>
+		<p>
+			Recipient: <input type="text" id="recipient" width="400"/>
+			<button onclick="get()">Check</button>
+		</p>
+		<p>
+			<textarea rows="8" cols="50" id="recieved" width="400"></textarea>
+		</p>
+	</body>
+</html>

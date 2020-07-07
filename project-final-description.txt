@@ -1,0 +1,10 @@
+BEFORE YOU SUBMIT YOUR PROJECT, DESCRIBE THE STATUS OF YOUR PROJECT.
+
+1. Is your project working?  If no, describe what you have done, what is not working, and what remains to be fixed/implemented.
+
+2. Describe your smart contract.  You may reuse text from your project proposal.
+
+3. Describe the user interface to your smart contract, including whether it is a command-line interface (CLI) or a web interface
+   using Web3.  You may reuse text from your project proposal.
+
+
